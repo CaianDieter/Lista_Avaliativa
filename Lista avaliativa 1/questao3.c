@@ -16,7 +16,7 @@ int main(){
         printf("senha invalida!\n");
 
     }else{
-        printf("senha valida!");
+        printf("senha valida!\n");
     }
 
     }

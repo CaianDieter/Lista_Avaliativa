@@ -29,13 +29,13 @@ int main(){
     int anoolim = olim(ano);
     
     if(anocopa == 1){
-        printf("A Copa do Mundo de Futebol ocorreu no ano de %d",ano);
+        printf("A Copa do Mundo de Futebol ocorreu no ano de %d\n",ano);
 
     }else if(anoolim == 1){
-        printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d",ano);
+        printf("Os Jogos Olimpicos de Verao ocorreram no ano de %d\n",ano);
 
     }else if(anocopa == -1 && anoolim == -1){
-        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d",ano);
+        printf("Nao houve Jogos Olimpicos de Verao ou Copa do Mundo no ano de %d\n",ano);
     }
     
     return 0;

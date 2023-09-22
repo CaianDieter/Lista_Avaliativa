@@ -6,8 +6,6 @@ int main(){
     scanf("%d",&senha);
     printf("senha cadastrada: %d \n",senha);
 
-    
-
     while(confirmacao != senha){
     
     scanf("%d",&confirmacao);
@@ -18,8 +16,6 @@ int main(){
     }else{
         printf("senha valida!\n");
     }
-
     }
-
     return 0;
 }

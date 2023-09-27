@@ -1,22 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int senha,confirmacao;
+void main() {
 
-    scanf("%d",&senha);
-    printf("senha cadastrada: %d \n",senha);
+    int senha , confi;
 
-    while(confirmacao != senha){
-    
-    scanf("%d",&confirmacao);
+    scanf("%d", &senha);
 
-    if(confirmacao != senha){
+    printf("senha cadastrada: %d\n", senha);
+
+   scanf("%d", &confi);
+
+    while (confi != senha) {
         printf("senha invalida!\n");
-
-    }else{
-        printf("senha valida!\n");
+        scanf("%d", &confi);
     }
-    }
-    
-    return 0;
+    printf("senha valida!\n");
 }

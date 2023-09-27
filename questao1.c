@@ -3,10 +3,8 @@
 int copa(int anolido){
     int xc;
     for(xc = 1930;xc <= 2022;xc = xc +4){
-        if(anolido == xc){
+        if(anolido == xc && xc != 1942&& xc != 1946){
             return 1;
-        }else if(anolido == 1946 && anolido == 1942){
-            return -1;
         }
     }
     return -1;
@@ -14,11 +12,8 @@ int copa(int anolido){
 int olim(int anolido2){
     int xo;
     for(xo = 1896;xo <= 2022;xo = xo +4){
-        if(anolido2 == xo){
+        if(anolido2 == xo && xo != 1916 && xo != 1940 && xo != 1944){
             return 1;
-        }else if(anolido2 == 1916 && anolido2 == 1940 && anolido2 == 1944){
-            return -1;
-            
         }
     }
     return -1;

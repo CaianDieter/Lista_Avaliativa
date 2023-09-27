@@ -12,7 +12,7 @@ int main(){
     
     scanf("%d",&confirmacao);
 
-    if(senha != senha){
+    if(confirmacao != senha){
         printf("senha invalida!\n");
 
     }else{

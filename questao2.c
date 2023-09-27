@@ -12,7 +12,7 @@ int main(){
         printf("%d eh impar\n",n);
     }
 
-    int seguraonaqui = n;
+   int seguraonaqui = n;
 
     while(n > 0){
         soma += n % 10;
